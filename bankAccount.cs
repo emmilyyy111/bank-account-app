@@ -35,12 +35,12 @@ public class bankAccount
 }
 
 // created a new checking account that inherits from the bankAccount "parent" - method is called "base" class
-public class checkingAccount : bankAccount 
+public class savingsAccount : bankAccount 
 {
 
-    public checkingAccount(double initialBalance) : base(initialBalance)
+    public savingsAccount(double initialBalance) : base(initialBalance)
     {
-
+            this.deposit(100); // All new savings accounts get $100 more than they deposited
     }
 
 }

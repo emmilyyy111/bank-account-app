@@ -11,8 +11,9 @@
 // Console.WriteLine($"And you make {salary} a year");
 
 try {
-checkingAccount myAccount 
-= new checkingAccount(300);
+    
+    savingsAccount myAccount
+= new savingsAccount(300);
 // myAccount.balance = 300;
 
 Console.Write("your balance is ");
